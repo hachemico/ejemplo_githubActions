@@ -1,0 +1,8 @@
+name: primer_workflow
+on: [push]
+jobs:
+  imprimir_hello_wolrd:
+    runs-on: ubuntu:latest
+    steps:
+    -name: Echo
+    run: echo hola mundo
